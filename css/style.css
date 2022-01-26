@@ -1,0 +1,22 @@
+.accordion {
+    width: 50%;
+    margin-left: 400px;
+}
+
+.accordion-button {
+    color: orange;
+    background-color: lightgrey;
+    padding-left: 38%;
+}
+
+.accordion-button:hover {
+    color: blue;
+}
+
+.accordion-body {
+    text-align: center;
+}
+
+.accordion-button::after {
+  content: none;
+}
